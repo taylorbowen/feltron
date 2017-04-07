@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content ="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Feltron 2012</title>
+</head>
+<body>
+
+<header>
+  <h4>The Annual Report of</h4>
+  <h1>FELTRON 2012</h1>
+</header>
+
+<section>
+
+<div class="types">
+  <h6>Types of activity reported</h6>
+  <h3 class="white">sixty</h3>
+  <h6 class="serif">From adjusting to writing</h6>
+</div>
+
+<div class="chance">
+  <h6>Chance of working</h6>
+  <h5>35.3 Percent</h5>
+  <h6 class="serif">Working (<span class="numbers">×1,410</span>) vs not working (<span class="numbers">×2,582</span>)</h6>
+</div>
+
+<div class="productivity">
+  <h6>Average daily productivity</h6>
+  <h3 class="grey">49.3<span class="percent">%</span></h3>
+  <h6 class="serif">As reported at the end of each day</h6>
+</div>
+
+<div class="most">
+  <h6>Most productive day</h6>
+  <h5>Wednesday</h5>
+  <h6 class="serif">57.8% productive</h6>
+</div>
+
+<div class="spoken">
+  <h6>People spoken with</h6>
+  <h3 class="grey">311</h3>
+  <h6 class="serif">Approximately 2 conversations per person</h6>
+</div>
+
+<div class="spoken-list">
+  <h6>people most frequently spoken too</h6>
+  <dl>
+    <dt class="ryan">Ryan</dt>
+    <dd>179</dd>
+
+    <dt>Olga</dt>
+    <dd>144</dt>
+
+    <dt>Mom</dt>
+    <dd>58</dd>
+
+    <dt>Justin</dt>
+    <dd>46</dt>
+
+    <dt>Roddy</dt>
+    <dd>45</dd>
+
+    <dt>Soopa</dt>
+    <dd>28</dt>
+
+    <dt>Tom W</dt>
+    <dd>26</dd>
+
+    <dt>Sergiy</dt>
+    <dd>20</dt>
+
+    <dt>Boz</dt>
+    <dd>20</dd>
+
+    <dt>Marina F</dt>
+    <dd>19</dt>
+
+  </dl>
+
+<div class="talkative">
+  <h6>Most talkative month</h6>
+  <h5>August</h5>
+  <h6 class="serif">76 talking reports</h6>
+
+  <div class="films">
+    <h6>Films reported</h6>
+    <h3 class="white">51</h3>
+    <h6 class="serif">Nearly 1 per week</h6>
+  </div>
+
+  <div class="documentary">
+    <h6>Documentary films reported</h6>
+    <h5>Twelve</h5>
+    <h6 class="serif">Bobby Fischer Against the World, El Bulli, Indie Game, Inside Job, Jiro Dreams of Sushi, Kimjongilia, Man on a Mission, Pressure Cookers, Queen of verasilles, Revenge of the Electric Car, Senna and the Art of the Steal</h6>
+  </div>
+
+  <div class="sports">
+    <h6>Reports of watching sports on tv</h6>
+    <h5>Six</h5>
+    <h6 class="serif">The Olympics (x3) and baseball (x3)</h6>
+  </div>
+
+  <div class="japanese">
+    <h6>Japanese TV shows watched</h6>
+    <h5>Three</h5>
+    <h6 class="serif">Including a boy-band strong man competition</h6>
+  </div>
+
+  <div class="live">
+    <h6> Live performances attended</h6>
+    <h3 class="white">Twelve</h3>
+    <h6 class="serif">Chairlift (x2), Bear in Heaven, Dirty Projectors, Ice Choir, Kanye West, My Brightest Diamond, Olga with Yehudim, Skrillex, The XX, Violens and one other</h6>
+  </div>
+
+  <div class="dancing">
+    <h6>Dancing reports</h6>
+    <h3 class="grey">Two</h3>
+    <h6 class="serif">At home and at Mark & Priscilla's wedding</h6>
+  </div>
+
+  <div class="reading">
+    <h6>Reading Reports</div>
+      <dl>
+        <dt>Reamde</dt>
+        <dd class="numbers-one">17</dd>
+
+        <dt>Ender's Game</dt>
+        <dd class="numbers-two">7</dd>
+
+        <dt>Steve Jobs</dt>
+        <dd class="numbers-three">6</dd>
+
+        <dt>Snow Crash</dt>
+        <dd class="numbers-thirteen">6</dd>
+
+        <dt>The Most Human Human</dt>
+        <dd class="numbers-four">4</dd>
+
+        <dt>Information Graphics</dt>
+        <dd class="numbers-five">2</dd>
+
+        <dt>Schott's Original Miscellany</dt>
+        <dd class="numbers-six">2</dd>
+
+        <dt>The Bug</dt>
+        <dd class="numbers-seven">1</dd>
+
+        <dt>Modernist Cuisine at Home</dt>
+        <dd class="numbers-eight">1</dd>
+
+        <dt>Adventures Among Ants</dt>
+        <dd class="numbers-nine">1</dd>
+
+        <dt>The Shape of Design</dt>
+        <dd class="numbers-ten">1</dd>
+
+        <dt>Code</dt>
+        <dd class="numbers-eleven">1</dd>
+
+        <dt>Mr. Penumbra's 24-Hour Bookstore</dt>
+        <dd class="numbers-tweleve">1</dd>
+      </dl>
+</div>
+
+<div class="cats">
+  <h6>Cats petted</h6>
+  <h5>One</h5>
+  <h6 class="serif">King — 6 reports</h6>
+</div>
+
+<div class="swimming">
+  <h6>Swimming Reports</h6>
+  <h5>One</h5>
+  <h6 class="serif">At the Silver Lake potholes — Aug 23 at 4:33 PM</h6>
+</div>
+
+</section>
+</body>
+</html>
