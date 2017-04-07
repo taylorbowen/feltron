@@ -1,182 +1,289 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content ="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/main.css">
-  <title>Feltron 2012</title>
-</head>
-<body>
 
-<header>
-  <h4>The Annual Report of</h4>
-  <h1>FELTRON 2012</h1>
-</header>
 
-<section>
+@font-face {
+    font-family: "Antonio";
+    src: url("../fonts/antonio-regular-webfont.woff2") format("woff2"),
+         url("../fonts/antonio-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 
-<div class="types">
-  <h6>Types of activity reported</h6>
-  <h3 class="white">sixty</h3>
-  <h6 class="serif">From adjusting to writing</h6>
-</div>
+}
 
-<div class="chance">
-  <h6>Chance of working</h6>
-  <h5>35.3 Percent</h5>
-  <h6 class="serif">Working (<span class="numbers">×1,410</span>) vs not working (<span class="numbers">×2,582</span>)</h6>
-</div>
+@font-face {
+    font-family: "Antonio Bold";
+    src: url("../fonts/antonio-bold-webfont.woff2") format("woff2"),
+         url("../fonts/antonio-bold-webfont.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
 
-<div class="productivity">
-  <h6>Average daily productivity</h6>
-  <h3 class="grey">49.3<span class="percent">%</span></h3>
-  <h6 class="serif">As reported at the end of each day</h6>
-</div>
+}
 
-<div class="most">
-  <h6>Most productive day</h6>
-  <h5>Wednesday</h5>
-  <h6 class="serif">57.8% productive</h6>
-</div>
+@font-face {
+    font-family: "Antonio Light";
+    src: url("../fonts/antonio-light-webfont.woff2") format("woff2"),
+         url("../fonts/antonio-light-webfont.woff") format("woff");
+    font-weight: Light;
+    font-style: normal;
 
-<div class="spoken">
-  <h6>People spoken with</h6>
-  <h3 class="grey">311</h3>
-  <h6 class="serif">Approximately 2 conversations per person</h6>
-</div>
+}
 
-<div class="spoken-list">
-  <h6>people most frequently spoken too</h6>
-  <dl>
-    <dt class="ryan">Ryan</dt>
-    <dd>179</dd>
+@font-face {
+    font-family: "Montserrat Light";
+    src: url("../fonts/montserrat-light-webfont.woff2") format("woff2"),
+         url("montserrat-light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 
-    <dt>Olga</dt>
-    <dd>144</dt>
+}
 
-    <dt>Mom</dt>
-    <dd>58</dd>
 
-    <dt>Justin</dt>
-    <dd>46</dt>
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("../fonts/montserrat-medium-webfont.woff2") format("woff2"),
+         url("../fonts/montserrat-medium-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 
-    <dt>Roddy</dt>
-    <dd>45</dd>
+}
 
-    <dt>Soopa</dt>
-    <dd>28</dt>
 
-    <dt>Tom W</dt>
-    <dd>26</dd>
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"),
+         url("../fonts/montserrat-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 
-    <dt>Sergiy</dt>
-    <dd>20</dt>
+}
 
-    <dt>Boz</dt>
-    <dd>20</dd>
 
-    <dt>Marina F</dt>
-    <dd>19</dt>
+body {
+  margin: auto;
+}
 
-  </dl>
+header {
+  background: #202;
+  overflow: hidden;
+}
 
-<div class="talkative">
-  <h6>Most talkative month</h6>
-  <h5>August</h5>
-  <h6 class="serif">76 talking reports</h6>
+h1 {
+  font-family: Antonio;
+  font-size: 3.5em;
+  color: #989;
+  margin-top: .1em;
+  margin-left: .4em;
+  padding-bottom: .1em;
+}
 
-  <div class="films">
-    <h6>Films reported</h6>
-    <h3 class="white">51</h3>
-    <h6 class="serif">Nearly 1 per week</h6>
-  </div>
+h4 {
+  font-family: serif;
+  font-size: .8em;
+  padding-top: 5em;
+  margin-left: 2em;
+  margin-bottom: .1em;
+  color: #989;
+}
 
-  <div class="documentary">
-    <h6>Documentary films reported</h6>
-    <h5>Twelve</h5>
-    <h6 class="serif">Bobby Fischer Against the World, El Bulli, Indie Game, Inside Job, Jiro Dreams of Sushi, Kimjongilia, Man on a Mission, Pressure Cookers, Queen of verasilles, Revenge of the Electric Car, Senna and the Art of the Steal</h6>
-  </div>
+nav ul {
+	list-style: none;
+	padding-left: 0;
+  padding-bottom: 1em;
+  font-size: .6em;
+}
 
-  <div class="sports">
-    <h6>Reports of watching sports on tv</h6>
-    <h5>Six</h5>
-    <h6 class="serif">The Olympics (x3) and baseball (x3)</h6>
-  </div>
+nav li {
+	margin: .75em 0;
+}
 
-  <div class="japanese">
-    <h6>Japanese TV shows watched</h6>
-    <h5>Three</h5>
-    <h6 class="serif">Including a boy-band strong man competition</h6>
-  </div>
+a {
+	color: #989;
+	text-decoration: none;
+	padding-bottom: .2em;
+	border-bottom: 1px dashed transparent;
+	transition: border-bottom .5s ease-in-out;
+}
 
-  <div class="live">
-    <h6> Live performances attended</h6>
-    <h3 class="white">Twelve</h3>
-    <h6 class="serif">Chairlift (x2), Bear in Heaven, Dirty Projectors, Ice Choir, Kanye West, My Brightest Diamond, Olga with Yehudim, Skrillex, The XX, Violens and one other</h6>
-  </div>
+nav.inline {
+	/*  inline class */
+}
 
-  <div class="dancing">
-    <h6>Dancing reports</h6>
-    <h3 class="grey">Two</h3>
-    <h6 class="serif">At home and at Mark & Priscilla's wedding</h6>
-  </div>
+nav.inline ul {
+	text-align: center;
+	background: #202;
+	margin: 0;
+}
 
-  <div class="reading">
-    <h6>Reading Reports</div>
-      <dl>
-        <dt>Reamde</dt>
-        <dd class="numbers-one">17</dd>
+nav.inline li {
+	display: inline;
+	margin-right: -.25em; /* tighten-up gaps (letter-spacing) */
+}
 
-        <dt>Ender's Game</dt>
-        <dd class="numbers-two">7</dd>
+nav.inline a {
+	display: inline-block;
+	color: #989;
+	background: #202;
+	padding: 1em;
+	border: 0;
+}
 
-        <dt>Steve Jobs</dt>
-        <dd class="numbers-three">6</dd>
+nav.inline a:hover {
+	background: #ff3;
+}
 
-        <dt>Snow Crash</dt>
-        <dd class="numbers-thirteen">6</dd>
+section {
+  margin: auto;
+  overflow: hidden;
+  background: #f98;
+}
 
-        <dt>The Most Human Human</dt>
-        <dd class="numbers-four">4</dd>
+h2 {
+  font-family: Montserrat Bold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #fff;
+  margin-left: 1em;
+}
 
-        <dt>Information Graphics</dt>
-        <dd class="numbers-five">2</dd>
+h6 {
+  font-family: "Montserrat";
+  font-size: .55em;
+  text-transform: uppercase;
+  letter-spacing: .090em;
+  color: #666;
+  margin-left: 3em;
+  margin-bottom: .3em;
+}
 
-        <dt>Schott's Original Miscellany</dt>
-        <dd class="numbers-six">2</dd>
+.white {
+  font-family: Antonio;
+  font-size: 5.5em;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: .12em;
+  margin-left: .25em;
+  margin-bottom: -.4em;
+}
 
-        <dt>The Bug</dt>
-        <dd class="numbers-seven">1</dd>
+.grey {
+  font-family: Antonio;
+  font-size: 5.5em;
+  letter-spacing: -.055em;
+  color: #555;
+  text-transform: uppercase;
+  margin-left: .3em;
+  margin-top: .2em;
+  margin-bottom: -.4em;
+}
 
-        <dt>Modernist Cuisine at Home</dt>
-        <dd class="numbers-eight">1</dd>
+.percent {
+  font-size: .28em;
+}
 
-        <dt>Adventures Among Ants</dt>
-        <dd class="numbers-nine">1</dd>
+.serif {
+  font-family: Century, serif;
+  text-transform: inherit;
+  font-size: .6em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px dotted #444;
+}
 
-        <dt>The Shape of Design</dt>
-        <dd class="numbers-ten">1</dd>
+.numbers {
+  font-family: Montserrat Bold
+}
 
-        <dt>Code</dt>
-        <dd class="numbers-eleven">1</dd>
+h5 {
+  font-family: Montserrat;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #555;
+  margin-top: .1em;
+  margin-left: 1.3em;
+  margin-bottom: -1em;
+}
 
-        <dt>Mr. Penumbra's 24-Hour Bookstore</dt>
-        <dd class="numbers-tweleve">1</dd>
-      </dl>
-</div>
+dl {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 1px;
+  margin-left: 1.5em;
+  overflow: hidden;
+}
 
-<div class="cats">
-  <h6>Cats petted</h6>
-  <h5>One</h5>
-  <h6 class="serif">King — 6 reports</h6>
-</div>
+dt {
+  float: left;
+  font-family: serif;
+  font-size: .7em;
+  background: #fff;
+  color: #444;
+}
 
-<div class="swimming">
-  <h6>Swimming Reports</h6>
-  <h5>One</h5>
-  <h6 class="serif">At the Silver Lake potholes — Aug 23 at 4:33 PM</h6>
-</div>
+dd {
+  font-family: Montserrat;
+  font-size: .6em;
+}
 
-</section>
-</body>
-</html>
+dd:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+
+.ryan {
+  display: inline-block;
+  width: auto;
+  padding-right: 4em;
+  margin-right: -4em;
+}
+
+.numbers-one {
+  margin-left: 15.5em;
+}
+
+.numbers-two {
+  margin-left: 16em;
+}
+
+.numbers-three {
+  margin-left: 16em;
+}
+.numbers-four {
+  margin-left: 16em;
+}
+.numbers-five {
+  margin-left: 16em;
+}
+.numbers-six {
+  margin-left: 16em;
+}
+.numbers-seven {
+  margin-left: 16em;
+}
+
+.numbers-eight {
+  margin-left: 16em;
+}
+
+.numbers-nine {
+  margin-left: 16em;
+}
+
+.numbers-ten {
+  margin-left: 16em;
+}
+
+.numbers-eleven {
+  margin-left: 16em;
+}
+
+.numbers-tweleve {
+  margin-left: 16em;
+}
+
+.numbers-thirteen {
+  margin-left: 16em;
+}
+
